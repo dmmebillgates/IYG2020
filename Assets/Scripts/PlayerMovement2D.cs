@@ -1,16 +1,19 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
-public class PlayerMovement2D : MonoBehaviour{
+public class PlayerMovement2D : MonoBehaviour
+{
+    // Set in unity
     public CharacterController2D controller;
-    public float runSpeed = 40f;
+    public float runSpeed = 100f;
+    
+    // Default values
     float horizontalMove = 10f;
     bool jump = false;
+
     void Update()
     {
         horizontalMove = Input.GetAxisRaw("Horizontal") * runSpeed;
-        if (Input.GetButtonDown("Jump"))
+        if (Input.GetButton("Jump"))
         {
             jump = true;
         }
