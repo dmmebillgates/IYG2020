@@ -14,7 +14,7 @@ public class PlayerMovement2D : MonoBehaviour
     void Update()
     {
         horizontalMove = Input.GetAxisRaw("Horizontal") * runSpeed;
-        if (Input.GetButtonDown("Jump"))
+        if (Input.GetButton("Jump"))
         {
             jump = true;
         } else if (Input.GetButtonDown("Crouch"))
