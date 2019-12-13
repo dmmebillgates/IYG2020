@@ -27,10 +27,9 @@ public class PlayerMovement2D : MonoBehaviour
     {
         animator.SetBool("IsJumping", false);
     }
-
     void FixedUpdate()
     {
-        controller.Move(horizontalMove * Time.fixedDeltaTime, crouch, jump);
+        controller.Move(horizontalMove * Time.fixedDeltaTime, false, jump);
         jump = false;
     }
 }

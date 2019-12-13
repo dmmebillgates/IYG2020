@@ -24118,7 +24118,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.3205144, y: 0.23076606}
+  m_Offset: {x: -0.0026595592, y: -0.46590376}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -24129,7 +24129,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.8125976, y: 1.7767911}
+  m_Size: {x: 0.8614979, y: 2.3388186}
   m_EdgeRadius: 0
 --- !u!50 &1465467220
 Rigidbody2D:
@@ -24189,7 +24189,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 1
-  m_Sprite: {fileID: 21300000, guid: 32eb3f7f41b58334e9d4040478fa7fd2, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 5275d3c75214c794f994264a9ada5f22, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -24320,6 +24320,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   PlayerMovement2D: {fileID: 1465467223}
+  CurrentShoe: 0
 --- !u!1 &1965183422
 GameObject:
   m_ObjectHideFlags: 0
