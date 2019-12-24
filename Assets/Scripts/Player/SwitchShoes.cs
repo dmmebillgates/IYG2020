@@ -4,41 +4,65 @@ public class SwitchShoes : MonoBehaviour
 {
     public PlayerMovement2D PlayerMovement2D;
     public CharacterController2D PlayerController2D;
+    public Rigidbody2D Player;
+    public Rigidbody2D Rigidbody2D;
+    public SpriteRenderer SpriteRenderer;
+
+
 
     public int CurrentShoe;
 
     // Default values
     public int defaultSpeed = 25;
-    public int defaultJump;
 
     // Increase values
-    public int increaseSpeed = 50;
-    public int increaseJump;
+    public int increasedSpeed = 50;
+
 
     void Update()
     {
         if (Input.GetButton("Shoe0"))
         {
-            // Default shoe
+            // Higher Jump
             CurrentShoe = 0;
             PlayerMovement2D.runSpeed = defaultSpeed;
+            Rigidbody2D.gravityScale = 1;
+            Player.transform.Rotate(new Vector3(0, 0, 0));
+            
+
         }
         else if (Input.GetButton("Shoe1"))
         {
-            // Increase your movment speed if you choose this shoe
+            // Increases your movement speed
             CurrentShoe = 1;
-            PlayerMovement2D.runSpeed = increaseSpeed;
+            PlayerMovement2D.runSpeed = increasedSpeed;
+            Rigidbody2D.gravityScale = 3;
+            Player.transform.Rotate(new Vector3(0, 0, 0));
+            
+
 
         }
         else if (Input.GetButton("Shoe2"))
         {
+            // Flips player upside down
             CurrentShoe = 2;
             PlayerMovement2D.runSpeed = defaultSpeed;
+            Rigidbody2D.gravityScale = -1;
+            Player.transform.Rotate(new Vector3(0, 0, -180));
+            SpriteRenderer.flipX = true;
+            
+
+
         }
         else if (Input.GetButton("Shoe3"))
         {
+            // reduces size of the player
             CurrentShoe = 3;
             PlayerMovement2D.runSpeed = defaultSpeed;
+            Rigidbody2D.gravityScale = 3;
+            Player.transform.Rotate(new Vector3(0, 0, 0));
+            transform.localScale = new Vector3(0.3f, 0.3f, 0.3f);
+
         }
 
     }
