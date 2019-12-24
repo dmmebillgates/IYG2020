@@ -21,7 +21,7 @@ public class SwitchShoes : MonoBehaviour
 
     void Update()
     {
-        if (Input.GetButton("Shoe0"))
+        if (Input.GetButtonUp("Shoe0"))
         {
             // Higher Jump
             CurrentShoe = 0;
@@ -31,7 +31,7 @@ public class SwitchShoes : MonoBehaviour
             
 
         }
-        else if (Input.GetButton("Shoe1"))
+        else if (Input.GetButtonUp("Shoe1"))
         {
             // Increases your movement speed
             CurrentShoe = 1;
@@ -42,7 +42,7 @@ public class SwitchShoes : MonoBehaviour
 
 
         }
-        else if (Input.GetButton("Shoe2"))
+        else if (Input.GetButtonUp("Shoe2"))
         {
             // Flips player upside down
             CurrentShoe = 2;
@@ -54,7 +54,7 @@ public class SwitchShoes : MonoBehaviour
 
 
         }
-        else if (Input.GetButton("Shoe3"))
+        else if (Input.GetButtonUp("Shoe3"))
         {
             // reduces size of the player
             CurrentShoe = 3;
