@@ -6,7 +6,11 @@ public class PlayerMovement2D : MonoBehaviour
     public CharacterController2D controller;
     public float runSpeed = 100f;
     public Animator animator;
-    
+
+    public Transform playerPosition;
+    public Transform stopPosition;
+    public int spaceToStop;
+
     // Default values
     float horizontalMove = 10f;
     bool jump = false;
@@ -14,14 +18,22 @@ public class PlayerMovement2D : MonoBehaviour
 
     void Update()
     {
-        horizontalMove = Input.GetAxisRaw("Horizontal") * runSpeed;
+        if (playerPosition.position.x < stopPosition.position.x - spaceToStop)
+        {
+            horizontalMove = 1 * runSpeed;
+        }
+        else
+        {
+            horizontalMove = 0 * runSpeed;
+        }
+
         animator.SetFloat("Speed", Mathf.Abs(horizontalMove));
 
         if (Input.GetButton("Jump"))
         {
             jump = true;
             animator.SetBool("IsJumping", true);
-        } 
+        }
     }
     public void Landing()
     {
@@ -29,7 +41,9 @@ public class PlayerMovement2D : MonoBehaviour
     }
     void FixedUpdate()
     {
+
         controller.Move(horizontalMove * Time.fixedDeltaTime, false, jump);
         jump = false;
+
     }
 }

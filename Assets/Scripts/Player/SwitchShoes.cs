@@ -14,57 +14,54 @@ public class SwitchShoes : MonoBehaviour
 
     // Default values
     public int defaultSpeed = 25;
+    public int defaultGravityScale = 3;
+    public Vector3 defaultSize = new Vector3(1f, 1f, 1f);
 
     // Increase values
     public int increasedSpeed = 50;
+    public int increasedGravityScale = 1;
+    public Vector3 smallSize = new Vector3(0.4f, 0.4f, 0.4f);
 
 
     void Update()
     {
         if (Input.GetButtonUp("Shoe0"))
         {
-            // Higher Jump
+            // Default shoes nothing increase 
             CurrentShoe = 0;
+
             PlayerMovement2D.runSpeed = defaultSpeed;
-            Rigidbody2D.gravityScale = 1;
-            Player.transform.Rotate(new Vector3(0, 0, 0));
-            
+            transform.localScale = defaultSize;
+            Rigidbody2D.gravityScale = defaultGravityScale;
 
         }
         else if (Input.GetButtonUp("Shoe1"))
         {
-            // Increases your movement speed
+            // Higher Jump
             CurrentShoe = 1;
-            PlayerMovement2D.runSpeed = increasedSpeed;
-            Rigidbody2D.gravityScale = 3;
-            Player.transform.Rotate(new Vector3(0, 0, 0));
-            
 
-
+            PlayerMovement2D.runSpeed = defaultSpeed;
+            Rigidbody2D.gravityScale = increasedGravityScale;
+            transform.localScale = defaultSize;
         }
         else if (Input.GetButtonUp("Shoe2"))
         {
-            // Flips player upside down
+            // Increases your movement speed
             CurrentShoe = 2;
-            PlayerMovement2D.runSpeed = defaultSpeed;
-            Rigidbody2D.gravityScale = -1;
-            Player.transform.Rotate(new Vector3(0, 0, -180));
-            SpriteRenderer.flipX = true;
-            
 
-
+            PlayerMovement2D.runSpeed = increasedSpeed;
+            transform.localScale = defaultSize;
+            Rigidbody2D.gravityScale = defaultGravityScale;
         }
         else if (Input.GetButtonUp("Shoe3"))
         {
-            // reduces size of the player
+            // Reduces size of the player
             CurrentShoe = 3;
+
             PlayerMovement2D.runSpeed = defaultSpeed;
-            Rigidbody2D.gravityScale = 3;
-            Player.transform.Rotate(new Vector3(0, 0, 0));
-            transform.localScale = new Vector3(0.3f, 0.3f, 0.3f);
-
+            transform.localScale = smallSize;
+            Rigidbody2D.gravityScale = defaultGravityScale;
         }
-
     }
 
 }
