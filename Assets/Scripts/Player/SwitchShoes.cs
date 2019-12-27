@@ -25,43 +25,54 @@ public class SwitchShoes : MonoBehaviour
 
     void Update()
     {
-        if (Input.GetButtonUp("Shoe0"))
+        if (Input.GetButtonUp("Shoe1"))
         {
             // Default shoes nothing increase 
-            CurrentShoe = 0;
+            CurrentShoe = 1;
 
             PlayerMovement2D.runSpeed = defaultSpeed;
             transform.localScale = defaultSize;
             Rigidbody2D.gravityScale = defaultGravityScale;
 
         }
-        else if (Input.GetButtonUp("Shoe1"))
+        else if (Input.GetButtonUp("Shoe2"))
         {
             // Higher Jump
-            CurrentShoe = 1;
+            CurrentShoe = 2;
 
             PlayerMovement2D.runSpeed = defaultSpeed;
             Rigidbody2D.gravityScale = increasedGravityScale;
             transform.localScale = defaultSize;
         }
-        else if (Input.GetButtonUp("Shoe2"))
+        else if (Input.GetButtonUp("Shoe3"))
         {
             // Increases your movement speed
-            CurrentShoe = 2;
+            CurrentShoe = 3;
 
             PlayerMovement2D.runSpeed = increasedSpeed;
             transform.localScale = defaultSize;
             Rigidbody2D.gravityScale = defaultGravityScale;
         }
-        else if (Input.GetButtonUp("Shoe3"))
+        else if (Input.GetButtonUp("Shoe4"))
         {
             // Reduces size of the player
-            CurrentShoe = 3;
+            CurrentShoe = 4;
 
             PlayerMovement2D.runSpeed = defaultSpeed;
             transform.localScale = smallSize;
             Rigidbody2D.gravityScale = defaultGravityScale;
         }
+        else if (Input.GetButtonUp("Shoe5"))
+        {
+            // Flip player upside down
+            CurrentShoe = 5;
+
+            PlayerMovement2D.runSpeed = defaultSpeed;
+            transform.localScale = defaultSize;
+            Rigidbody2D.gravityScale = -11;
+            Rigidbody2D.transform.localScale = new Vector3(1,-1, 1);
+        }
+
     }
 
 }
