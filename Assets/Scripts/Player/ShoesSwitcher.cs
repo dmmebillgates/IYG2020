@@ -2,7 +2,7 @@
 
 namespace Assets.Scripts.Player
 {
-    public class SwitchShoes : MonoBehaviour
+    public class ShoesSwitcher : MonoBehaviour
     {
         public PlayerMovement2D PlayerMovement2D;
         public Rigidbody2D Rigidbody2D;

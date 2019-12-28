@@ -12,9 +12,10 @@ public class PlayerMovement2D : MonoBehaviour
     public int spaceToStop;
 
     // Default values
-    float horizontalMove = 10f;
-    bool jump = false;
-    bool crouch = false;
+    public float horizontalMove = 10f;
+    public bool jump = false;
+    public bool crouch = false;
+    public bool end = false;
 
     void Update()
     {
