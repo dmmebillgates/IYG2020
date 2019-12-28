@@ -35,15 +35,15 @@ public class PlayerMovement2D : MonoBehaviour
             animator.SetBool("IsJumping", true);
         }
     }
+
     public void Landing()
     {
         animator.SetBool("IsJumping", false);
     }
+
     void FixedUpdate()
     {
-
         controller.Move(horizontalMove * Time.fixedDeltaTime, false, jump);
         jump = false;
-
     }
 }
