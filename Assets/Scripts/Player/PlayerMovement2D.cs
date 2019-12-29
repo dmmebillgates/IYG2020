@@ -16,7 +16,7 @@ public class PlayerMovement2D : MonoBehaviour
     public bool jump = false;
     public bool crouch = false;
     public bool End = false;
-    private bool m_Run = false;
+    public bool m_Run = false;
 
     void Update()
     {
