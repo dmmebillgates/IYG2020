@@ -133,6 +133,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 797049939}
     m_Modifications:
+    - target: {fileID: 3680368100136093395, guid: 77e9d3d16cbe2a8469797288364fab17,
+        type: 3}
+      propertyPath: m_Name
+      value: Torch (8)
+      objectReference: {fileID: 0}
     - target: {fileID: 3680368100136093392, guid: 77e9d3d16cbe2a8469797288364fab17,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -188,11 +193,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 3680368100136093395, guid: 77e9d3d16cbe2a8469797288364fab17,
-        type: 3}
-      propertyPath: m_Name
-      value: Torch (8)
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 77e9d3d16cbe2a8469797288364fab17, type: 3}
 --- !u!1001 &136346440
@@ -202,6 +202,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 797049939}
     m_Modifications:
+    - target: {fileID: 3680368100136093395, guid: 77e9d3d16cbe2a8469797288364fab17,
+        type: 3}
+      propertyPath: m_Name
+      value: Torch (15)
+      objectReference: {fileID: 0}
     - target: {fileID: 3680368100136093392, guid: 77e9d3d16cbe2a8469797288364fab17,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -257,11 +262,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 3680368100136093395, guid: 77e9d3d16cbe2a8469797288364fab17,
-        type: 3}
-      propertyPath: m_Name
-      value: Torch (15)
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 77e9d3d16cbe2a8469797288364fab17, type: 3}
 --- !u!1001 &136968234
@@ -271,6 +271,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 797049939}
     m_Modifications:
+    - target: {fileID: 3680368100136093395, guid: 77e9d3d16cbe2a8469797288364fab17,
+        type: 3}
+      propertyPath: m_Name
+      value: Torch (6)
+      objectReference: {fileID: 0}
     - target: {fileID: 3680368100136093392, guid: 77e9d3d16cbe2a8469797288364fab17,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -326,11 +331,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 3680368100136093395, guid: 77e9d3d16cbe2a8469797288364fab17,
-        type: 3}
-      propertyPath: m_Name
-      value: Torch (6)
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 77e9d3d16cbe2a8469797288364fab17, type: 3}
 --- !u!1001 &140204330
@@ -340,6 +340,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 797049939}
     m_Modifications:
+    - target: {fileID: 3680368100136093395, guid: 77e9d3d16cbe2a8469797288364fab17,
+        type: 3}
+      propertyPath: m_Name
+      value: Torch (11)
+      objectReference: {fileID: 0}
     - target: {fileID: 3680368100136093392, guid: 77e9d3d16cbe2a8469797288364fab17,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -395,11 +400,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 3680368100136093395, guid: 77e9d3d16cbe2a8469797288364fab17,
-        type: 3}
-      propertyPath: m_Name
-      value: Torch (11)
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 77e9d3d16cbe2a8469797288364fab17, type: 3}
 --- !u!1001 &229779639
@@ -409,6 +409,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 797049939}
     m_Modifications:
+    - target: {fileID: 3680368100136093395, guid: 77e9d3d16cbe2a8469797288364fab17,
+        type: 3}
+      propertyPath: m_Name
+      value: Torch (12)
+      objectReference: {fileID: 0}
     - target: {fileID: 3680368100136093392, guid: 77e9d3d16cbe2a8469797288364fab17,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -464,11 +469,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 3680368100136093395, guid: 77e9d3d16cbe2a8469797288364fab17,
-        type: 3}
-      propertyPath: m_Name
-      value: Torch (12)
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 77e9d3d16cbe2a8469797288364fab17, type: 3}
 --- !u!4 &265166461 stripped
@@ -490,6 +490,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 5806901036550553961, guid: 7c8f06a6892212546aadea508d63cb2d,
+        type: 3}
+      propertyPath: m_Name
+      value: Player
+      objectReference: {fileID: 0}
     - target: {fileID: 5806901036301386364, guid: 7c8f06a6892212546aadea508d63cb2d,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -545,11 +550,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 5806901036550553961, guid: 7c8f06a6892212546aadea508d63cb2d,
-        type: 3}
-      propertyPath: m_Name
-      value: Player
-      objectReference: {fileID: 0}
     - target: {fileID: 5806901036550553964, guid: 7c8f06a6892212546aadea508d63cb2d,
         type: 3}
       propertyPath: stopPosition
@@ -590,6 +590,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 797049939}
     m_Modifications:
+    - target: {fileID: 3680368100136093395, guid: 77e9d3d16cbe2a8469797288364fab17,
+        type: 3}
+      propertyPath: m_Name
+      value: Torch (13)
+      objectReference: {fileID: 0}
     - target: {fileID: 3680368100136093392, guid: 77e9d3d16cbe2a8469797288364fab17,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -645,11 +650,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 3680368100136093395, guid: 77e9d3d16cbe2a8469797288364fab17,
-        type: 3}
-      propertyPath: m_Name
-      value: Torch (13)
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 77e9d3d16cbe2a8469797288364fab17, type: 3}
 --- !u!4 &574648362 stripped
@@ -695,6 +695,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 797049939}
     m_Modifications:
+    - target: {fileID: 3680368100136093395, guid: 77e9d3d16cbe2a8469797288364fab17,
+        type: 3}
+      propertyPath: m_Name
+      value: Torch (1)
+      objectReference: {fileID: 0}
     - target: {fileID: 3680368100136093392, guid: 77e9d3d16cbe2a8469797288364fab17,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -749,11 +754,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3680368100136093395, guid: 77e9d3d16cbe2a8469797288364fab17,
-        type: 3}
-      propertyPath: m_Name
-      value: Torch (1)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 77e9d3d16cbe2a8469797288364fab17, type: 3}
@@ -847,6 +847,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 797049939}
     m_Modifications:
+    - target: {fileID: 3680368100136093395, guid: 77e9d3d16cbe2a8469797288364fab17,
+        type: 3}
+      propertyPath: m_Name
+      value: Torch (4)
+      objectReference: {fileID: 0}
     - target: {fileID: 3680368100136093392, guid: 77e9d3d16cbe2a8469797288364fab17,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -902,11 +907,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 3680368100136093395, guid: 77e9d3d16cbe2a8469797288364fab17,
-        type: 3}
-      propertyPath: m_Name
-      value: Torch (4)
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 77e9d3d16cbe2a8469797288364fab17, type: 3}
 --- !u!1001 &1111360234
@@ -916,6 +916,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 797049939}
     m_Modifications:
+    - target: {fileID: 3680368100136093395, guid: 77e9d3d16cbe2a8469797288364fab17,
+        type: 3}
+      propertyPath: m_Name
+      value: Torch (9)
+      objectReference: {fileID: 0}
     - target: {fileID: 3680368100136093392, guid: 77e9d3d16cbe2a8469797288364fab17,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -971,11 +976,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 3680368100136093395, guid: 77e9d3d16cbe2a8469797288364fab17,
-        type: 3}
-      propertyPath: m_Name
-      value: Torch (9)
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 77e9d3d16cbe2a8469797288364fab17, type: 3}
 --- !u!1001 &1170078501
@@ -985,6 +985,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 797049939}
     m_Modifications:
+    - target: {fileID: 3680368100136093395, guid: 77e9d3d16cbe2a8469797288364fab17,
+        type: 3}
+      propertyPath: m_Name
+      value: Torch (14)
+      objectReference: {fileID: 0}
     - target: {fileID: 3680368100136093392, guid: 77e9d3d16cbe2a8469797288364fab17,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1040,11 +1045,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 3680368100136093395, guid: 77e9d3d16cbe2a8469797288364fab17,
-        type: 3}
-      propertyPath: m_Name
-      value: Torch (14)
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 77e9d3d16cbe2a8469797288364fab17, type: 3}
 --- !u!1001 &1389379890
@@ -1054,6 +1054,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 797049939}
     m_Modifications:
+    - target: {fileID: 3680368100136093395, guid: 77e9d3d16cbe2a8469797288364fab17,
+        type: 3}
+      propertyPath: m_Name
+      value: Torch
+      objectReference: {fileID: 0}
     - target: {fileID: 3680368100136093392, guid: 77e9d3d16cbe2a8469797288364fab17,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1109,11 +1114,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 3680368100136093395, guid: 77e9d3d16cbe2a8469797288364fab17,
-        type: 3}
-      propertyPath: m_Name
-      value: Torch
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 77e9d3d16cbe2a8469797288364fab17, type: 3}
 --- !u!1001 &1396673020
@@ -1123,6 +1123,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 797049939}
     m_Modifications:
+    - target: {fileID: 3680368100136093395, guid: 77e9d3d16cbe2a8469797288364fab17,
+        type: 3}
+      propertyPath: m_Name
+      value: Torch (7)
+      objectReference: {fileID: 0}
     - target: {fileID: 3680368100136093392, guid: 77e9d3d16cbe2a8469797288364fab17,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1178,11 +1183,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 3680368100136093395, guid: 77e9d3d16cbe2a8469797288364fab17,
-        type: 3}
-      propertyPath: m_Name
-      value: Torch (7)
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 77e9d3d16cbe2a8469797288364fab17, type: 3}
 --- !u!4 &1417565150 stripped
@@ -1198,6 +1198,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 797049939}
     m_Modifications:
+    - target: {fileID: 3680368100136093395, guid: 77e9d3d16cbe2a8469797288364fab17,
+        type: 3}
+      propertyPath: m_Name
+      value: Torch (2)
+      objectReference: {fileID: 0}
     - target: {fileID: 3680368100136093392, guid: 77e9d3d16cbe2a8469797288364fab17,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1253,11 +1258,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 3680368100136093395, guid: 77e9d3d16cbe2a8469797288364fab17,
-        type: 3}
-      propertyPath: m_Name
-      value: Torch (2)
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 77e9d3d16cbe2a8469797288364fab17, type: 3}
 --- !u!1001 &1465052212
@@ -1267,6 +1267,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 797049939}
     m_Modifications:
+    - target: {fileID: 3680368100136093395, guid: 77e9d3d16cbe2a8469797288364fab17,
+        type: 3}
+      propertyPath: m_Name
+      value: Torch (10)
+      objectReference: {fileID: 0}
     - target: {fileID: 3680368100136093392, guid: 77e9d3d16cbe2a8469797288364fab17,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1322,11 +1327,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 3680368100136093395, guid: 77e9d3d16cbe2a8469797288364fab17,
-        type: 3}
-      propertyPath: m_Name
-      value: Torch (10)
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 77e9d3d16cbe2a8469797288364fab17, type: 3}
 --- !u!4 &1592161091 stripped
@@ -1342,6 +1342,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 797049939}
     m_Modifications:
+    - target: {fileID: 3680368100136093395, guid: 77e9d3d16cbe2a8469797288364fab17,
+        type: 3}
+      propertyPath: m_Name
+      value: Torch (5)
+      objectReference: {fileID: 0}
     - target: {fileID: 3680368100136093392, guid: 77e9d3d16cbe2a8469797288364fab17,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1397,11 +1402,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 3680368100136093395, guid: 77e9d3d16cbe2a8469797288364fab17,
-        type: 3}
-      propertyPath: m_Name
-      value: Torch (5)
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 77e9d3d16cbe2a8469797288364fab17, type: 3}
 --- !u!1001 &1690663100
@@ -1411,6 +1411,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1325516292428414622, guid: 375d0934b6aee614aa59810f78ca4934,
+        type: 3}
+      propertyPath: m_Name
+      value: Camera
+      objectReference: {fileID: 0}
     - target: {fileID: 1325516292428414609, guid: 375d0934b6aee614aa59810f78ca4934,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1465,11 +1470,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1325516292428414622, guid: 375d0934b6aee614aa59810f78ca4934,
-        type: 3}
-      propertyPath: m_Name
-      value: Camera
       objectReference: {fileID: 0}
     - target: {fileID: 1325516293382235874, guid: 375d0934b6aee614aa59810f78ca4934,
         type: 3}
@@ -1526,6 +1526,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 797049939}
     m_Modifications:
+    - target: {fileID: 3680368100136093395, guid: 77e9d3d16cbe2a8469797288364fab17,
+        type: 3}
+      propertyPath: m_Name
+      value: Torch (16)
+      objectReference: {fileID: 0}
     - target: {fileID: 3680368100136093392, guid: 77e9d3d16cbe2a8469797288364fab17,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1581,11 +1586,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 3680368100136093395, guid: 77e9d3d16cbe2a8469797288364fab17,
-        type: 3}
-      propertyPath: m_Name
-      value: Torch (16)
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 77e9d3d16cbe2a8469797288364fab17, type: 3}
 --- !u!1001 &1775619328
@@ -1595,6 +1595,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 797049939}
     m_Modifications:
+    - target: {fileID: 3680368100136093395, guid: 77e9d3d16cbe2a8469797288364fab17,
+        type: 3}
+      propertyPath: m_Name
+      value: Torch (3)
+      objectReference: {fileID: 0}
     - target: {fileID: 3680368100136093392, guid: 77e9d3d16cbe2a8469797288364fab17,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1650,11 +1655,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 3680368100136093395, guid: 77e9d3d16cbe2a8469797288364fab17,
-        type: 3}
-      propertyPath: m_Name
-      value: Torch (3)
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 77e9d3d16cbe2a8469797288364fab17, type: 3}
 --- !u!1001 &1783516329
@@ -1664,6 +1664,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 4300818758794972082, guid: 3fa59fd04e9b8b74899ce1abfda97e81,
+        type: 3}
+      propertyPath: m_Name
+      value: NPC
+      objectReference: {fileID: 0}
     - target: {fileID: 4300818758794972078, guid: 3fa59fd04e9b8b74899ce1abfda97e81,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1733,11 +1738,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 4300818758794972082, guid: 3fa59fd04e9b8b74899ce1abfda97e81,
-        type: 3}
-      propertyPath: m_Name
-      value: NPC
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3fa59fd04e9b8b74899ce1abfda97e81, type: 3}
@@ -82129,8 +82129,8 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: edc74987c9043fa48b167371f6c19241, type: 3}
+  m_SortingOrder: -10
+  m_Sprite: {fileID: 21300000, guid: ccbd9558b6be8bc4e80049fef76d64f7, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
