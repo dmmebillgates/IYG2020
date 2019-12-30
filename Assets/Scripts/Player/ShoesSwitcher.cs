@@ -19,9 +19,6 @@ public class ShoesSwitcher : MonoBehaviour
 
     void Update()
     {
-        // Log shoe to console
-        Debug.Log($"Current shoes: {CurrentShoe}!");
-
         if (Input.GetButtonUp("Shoe1"))
         {
             // Default shoes nothing increase 
@@ -53,7 +50,11 @@ public class ShoesSwitcher : MonoBehaviour
         {
             // Reduces size of the player
             CurrentShoe = 4;
-
+            
+            // Jump
+            PlayerMovement2D.jump = true;
+            PlayerMovement2D.animator.SetBool("IsJumping", true);
+            
             PlayerMovement2D.runSpeed = DefaultSpeed;
             transform.localScale = SmallSize;
             Rigidbody2D.gravityScale = DefaultGravityScale;

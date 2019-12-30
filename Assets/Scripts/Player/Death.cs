@@ -9,7 +9,7 @@ public class Death : MonoBehaviour
 
     void Update()
     {
-        if (!Player.IsTouching(DeathMap) && (!Input.GetKeyDown(KeyCode.R))) return;
+        if (!Player.IsTouching(DeathMap) && !Input.GetKeyDown(KeyCode.R)) return;
         
         int sameScene = SceneManager.sceneCountInBuildSettings - 1;
         SceneManager.LoadScene(sameScene);
