@@ -50,9 +50,9 @@
           <e p="Dialog.cs" t="Include" />
           <e p="Menu.cs" t="Include" />
           <e p="NPC.cs" t="Include" />
-          <e p="Parallax.cs" t="Include" />
           <e p="PlayerMovement2D.cs" t="Include" />
           <e p="ShoesSwitcher.cs" t="Include" />
+          <e p="UIMessages.cs" t="Include" />
         </e>
       </e>
       <e p="IYG2020.sln" t="IncludeFlat" />

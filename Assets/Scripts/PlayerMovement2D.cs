@@ -12,8 +12,8 @@ public class PlayerMovement2D : MonoBehaviour
     // Default values
     public float HorizontalMove = 10f;
     public bool Jump = false;
-    private bool m_End = false;
-    private bool m_Run = false;
+    public bool m_Run = false;
+    public bool m_End = false;
 
     void Update()
     {
