@@ -12,19 +12,26 @@ public class PlayerMovement2D : MonoBehaviour
     // Default values
     public float HorizontalMove = 10f;
     public bool Jump = false;
-    public bool m_Run = false;
-    public bool m_End = false;
+    public bool Run = false;
+    public bool End = false;
 
     void Update()
     {
         // Check end position
-        if (GetComponent<Transform>().position.x < stopPosition.position.x - spaceToStop && m_Run)
+        if (GetComponent<Transform>().position.x <= stopPosition.position.x - spaceToStop && Run)
             HorizontalMove = 1 * RunSpeed;
-        else HorizontalMove = 0 * RunSpeed;
+        else
+        {
+            HorizontalMove = 0 * RunSpeed;
+        }
+        // Switch end to true
+        if (GetComponent<Transform>().position.x > stopPosition.position.x - spaceToStop) End = true;
+        
+        // Animations
         animator.SetFloat("Speed", Mathf.Abs(HorizontalMove));
 
         // Input's
-        if (Input.GetKeyDown(KeyCode.D)) m_Run = true;
+        if (Input.GetKeyDown(KeyCode.D)) Run = true;
         if (Input.GetButton("Jump"))
         {
             Jump = true;

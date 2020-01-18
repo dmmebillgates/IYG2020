@@ -3,7 +3,7 @@
 public class ShoesSwitcher : MonoBehaviour
 {
     public PlayerMovement2D PlayerMovement2D;
-    public int CurrentShoe;
+    public int CurrentShoe = 1;
 
     // Default values
     public Vector2 DefaultSize = new Vector2(1f, 1f);
