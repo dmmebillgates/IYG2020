@@ -17,6 +17,9 @@ public class PlayerMovement2D : MonoBehaviour
 
     void Update()
     {
+        // Hide cursor
+        Cursor.visible = false;
+        
         // Check end position
         if (GetComponent<Transform>().position.x <= stopPosition.position.x - spaceToStop && Run)
             HorizontalMove = 1 * RunSpeed;
