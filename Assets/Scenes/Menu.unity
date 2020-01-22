@@ -304,22 +304,22 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Your target is simple, you must find the Great Mage of Boot, but it is
-    not that easy! You must defeat all obstacles we made for you... If you want do
-    this, firstly you must switch your shoes! Good lock!
+  m_text: 'Your job is simple, You must find the Great Mage of Boot, but it is not
+    that easy! You must defeat all obstacles we made for You... but to do this you
+    must switch your shoes! Good luck!
 
 
-    All shoes
+    All shoes:
 
-    Default Shoes: No effects but still usefull!
+    Default Shoes: Well it''s just a pair of shoes.
 
-    Higher Jump Shoes: 120metres!
+    Higher Jump Shoes: 120 metres!
 
-    Speed Shoes: Be faster like... i don''t know.
+    Speed Shoes: I am speed.
 
-    Resize Shoes: Become a hobbit!
+    Size reduction Shoes: Become a hobbit!
 
-    Antigavity Schoes: If you hate gravity. '
+    Antigravity Shoes: They make Newton look like a fool.'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -1900,7 +1900,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Info about game
+  m_text: 
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
