@@ -15,11 +15,10 @@ public class PlayerMovement2D : MonoBehaviour
     public bool Run = false;
     public bool End = false;
 
+    void Start() => Cursor.visible = false; // Hide cursor
+
     void Update()
     {
-        // Hide cursor
-        Cursor.visible = false;
-        
         // Check end position
         if (GetComponent<Transform>().position.x <= stopPosition.position.x - spaceToStop && Run)
             HorizontalMove = 1 * RunSpeed;
@@ -27,9 +26,10 @@ public class PlayerMovement2D : MonoBehaviour
         {
             HorizontalMove = 0 * RunSpeed;
         }
+
         // Switch end to true
         if (GetComponent<Transform>().position.x > stopPosition.position.x - spaceToStop) End = true;
-        
+
         // Animations
         animator.SetFloat("Speed", Mathf.Abs(HorizontalMove));
 

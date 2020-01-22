@@ -3,16 +3,10 @@ using UnityEngine.SceneManagement;
 
 public class Menu : MonoBehaviour
 {
-    public void LoadLevel(int level)
-    {
-        // Load next level in queue
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + level);
-    }
+    void Start() => Cursor.visible = true; // Show cursor in menu
 
-    public void ExitGame()
-    {
-        // Exit game
-        Application.Quit();
-    }
+    public void LoadLevel(int level) =>
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + level); // Load next level 
 
+    public void ExitGame() => Application.Quit(); // Exit
 }
