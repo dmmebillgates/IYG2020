@@ -3,9 +3,13 @@ using UnityEngine;
 
 public class UI : MonoBehaviour
 {
-    public PlayerMovement2D player; // Player positon
-    public ShoesSwitcher shoes; // Current shoe
-    public TextMeshProUGUI messages; // Center Message
+    // Player
+    public PlayerMovement2D Player; // Player positon
+    public ShoesSwitcher Shoes; // Current shoe
+    public TextMeshProUGUI Message; // Center Message
+
+    // NPC
+    public NPC NoPlayerCharacter; // NPC
 
     // Numbers
     public TextMeshProUGUI DefaultShoe;
@@ -13,14 +17,22 @@ public class UI : MonoBehaviour
     public TextMeshProUGUI SpeedShoe;
     public TextMeshProUGUI ResizeShoe;
     public TextMeshProUGUI AntiGravityShoe;
-    
+
+    // Private
+    private string NewMessage;
+
+    void Start()
+    {
+        Message.text = "Press [D] to start!";
+        NewMessage = $"{NoPlayerCharacter.Name} said: \n\"{NoPlayerCharacter.Message}\"\nPress [E] to back to menu!";
+    }
 
     void Update()
     {
-        if (player.Run) messages.text = string.Empty;
-        if (player.End) messages.text = "Press 'E' to back to main menu!";
+        if (Player.Run) Message.text = string.Empty;
+        if (Player.End) Message.text = NewMessage;
 
-        switch (shoes.CurrentShoe)
+        switch (Shoes.CurrentShoe)
         {
             case 1:
                 DefaultShoe.color = Color.magenta;
