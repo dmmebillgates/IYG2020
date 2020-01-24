@@ -3762,16 +3762,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 345211804131880329, guid: 7c8f06a6892212546aadea508d63cb2d,
-        type: 3}
-      propertyPath: DeathMap
-      value: 
-      objectReference: {fileID: 2094931572}
-    - target: {fileID: 2971540454329356905, guid: 7c8f06a6892212546aadea508d63cb2d,
-        type: 3}
-      propertyPath: stopPosition
-      value: 
-      objectReference: {fileID: 764244934}
     - target: {fileID: 2971540454329356949, guid: 7c8f06a6892212546aadea508d63cb2d,
         type: 3}
       propertyPath: m_Name
@@ -3832,6 +3822,16 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2971540454329356905, guid: 7c8f06a6892212546aadea508d63cb2d,
+        type: 3}
+      propertyPath: stopPosition
+      value: 
+      objectReference: {fileID: 764244934}
+    - target: {fileID: 345211804131880329, guid: 7c8f06a6892212546aadea508d63cb2d,
+        type: 3}
+      propertyPath: DeathMap
+      value: 
+      objectReference: {fileID: 2094931572}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7c8f06a6892212546aadea508d63cb2d, type: 3}
 --- !u!114 &503201748 stripped
@@ -3871,6 +3871,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1716025364}
     m_Modifications:
+    - target: {fileID: 7037301761490874430, guid: 222013c04d030b746a5d1b097a59c71d,
+        type: 3}
+      propertyPath: m_Name
+      value: Background 1 (1)
+      objectReference: {fileID: 0}
     - target: {fileID: 7037301761490874425, guid: 222013c04d030b746a5d1b097a59c71d,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -3925,11 +3930,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7037301761490874430, guid: 222013c04d030b746a5d1b097a59c71d,
-        type: 3}
-      propertyPath: m_Name
-      value: Background 1 (1)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 222013c04d030b746a5d1b097a59c71d, type: 3}
@@ -4472,26 +4472,18 @@ MonoBehaviour:
   - {fileID: 0}
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
---- !u!1 &764244930 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 2530789694133506197, guid: 796933670d8e69f4f92b611e53c4c41a,
+--- !u!114 &764244931 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 764244931, guid: 796933670d8e69f4f92b611e53c4c41a,
     type: 3}
   m_PrefabInstance: {fileID: 1471461258}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &764244931
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 764244930}
+  m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 97b09a52064ab6d419cf427ce072d37d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Name: Wird Eye
-  Message: Your princess is in another castle!
 --- !u!4 &764244934 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2530789694133506201, guid: 796933670d8e69f4f92b611e53c4c41a,
@@ -4963,6 +4955,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1325516292428414622, guid: 375d0934b6aee614aa59810f78ca4934,
+        type: 3}
+      propertyPath: m_Name
+      value: Camera
+      objectReference: {fileID: 0}
     - target: {fileID: 1325516292428414609, guid: 375d0934b6aee614aa59810f78ca4934,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -5017,11 +5014,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1325516292428414622, guid: 375d0934b6aee614aa59810f78ca4934,
-        type: 3}
-      propertyPath: m_Name
-      value: Camera
       objectReference: {fileID: 0}
     - target: {fileID: 1325516293382235874, guid: 375d0934b6aee614aa59810f78ca4934,
         type: 3}
@@ -5462,6 +5454,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1716025364}
     m_Modifications:
+    - target: {fileID: 7037301761490874430, guid: 222013c04d030b746a5d1b097a59c71d,
+        type: 3}
+      propertyPath: m_Name
+      value: Background 1
+      objectReference: {fileID: 0}
     - target: {fileID: 7037301761490874425, guid: 222013c04d030b746a5d1b097a59c71d,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -5516,11 +5513,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7037301761490874430, guid: 222013c04d030b746a5d1b097a59c71d,
-        type: 3}
-      propertyPath: m_Name
-      value: Background 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 222013c04d030b746a5d1b097a59c71d, type: 3}
@@ -6860,6 +6852,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1716025364}
     m_Modifications:
+    - target: {fileID: 7037301761490874430, guid: 222013c04d030b746a5d1b097a59c71d,
+        type: 3}
+      propertyPath: m_Name
+      value: Background 1 (2)
+      objectReference: {fileID: 0}
     - target: {fileID: 7037301761490874425, guid: 222013c04d030b746a5d1b097a59c71d,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -6914,11 +6911,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7037301761490874430, guid: 222013c04d030b746a5d1b097a59c71d,
-        type: 3}
-      propertyPath: m_Name
-      value: Background 1 (2)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 222013c04d030b746a5d1b097a59c71d, type: 3}
