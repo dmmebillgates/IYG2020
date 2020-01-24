@@ -27,8 +27,8 @@ public class End : MonoBehaviour
     /// </summary>
     private void Reload()
     {
-        int sameScene = SceneManager.sceneCountInBuildSettings - 1;
-        SceneManager.LoadScene(sameScene);
+        Scene scene = SceneManager.GetActiveScene();
+        SceneManager.LoadScene(scene.buildIndex);
     }
 
     /// <summary>
