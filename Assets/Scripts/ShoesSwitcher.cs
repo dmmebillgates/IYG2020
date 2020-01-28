@@ -18,7 +18,7 @@ public class ShoesSwitcher : MonoBehaviour
 
     void Update()
     {
-        // if (PauseMenu.GameIsPaused) return;
+        if (PauseMenu.GameIsPaused) return;
         
         if (Input.GetButtonUp("Shoe1"))
         {
