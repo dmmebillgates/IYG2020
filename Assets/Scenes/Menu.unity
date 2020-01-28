@@ -1136,7 +1136,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: ee1cdc53aeb6d544f95530cc5da34d93, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 1
+  m_Volume: 0.1
   m_Pitch: 1
   Loop: 1
   Mute: 0
@@ -2344,10 +2344,10 @@ MonoBehaviour:
     m_ColorMultiplier: 1
     m_FadeDuration: 0.1
   m_SpriteState:
-    m_HighlightedSprite: {fileID: 21300000, guid: 3acb32e44d624d3478c31753438795e3,
+    m_HighlightedSprite: {fileID: 21300000, guid: 02116fd359281c847b442eb2820240d3,
       type: 3}
     m_PressedSprite: {fileID: 0}
-    m_SelectedSprite: {fileID: 21300000, guid: 3acb32e44d624d3478c31753438795e3, type: 3}
+    m_SelectedSprite: {fileID: 21300000, guid: 02116fd359281c847b442eb2820240d3, type: 3}
     m_DisabledSprite: {fileID: 0}
   m_AnimationTriggers:
     m_NormalTrigger: Normal
@@ -2389,7 +2389,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 5269f93f71f328a40976d4e870f5d01f, type: 3}
+  m_Sprite: {fileID: 21300000, guid: c62e79eced3ddfa48b633eacb15db5ff, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
