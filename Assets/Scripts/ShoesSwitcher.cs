@@ -18,7 +18,8 @@ public class ShoesSwitcher : MonoBehaviour
 
     void Update()
     {
-        Debug.Log($"Current shoes: {CurrentShoe}");
+        // if (PauseMenu.GameIsPaused) return;
+        
         if (Input.GetButtonUp("Shoe1"))
         {
             // Default shoes nothing increase 
