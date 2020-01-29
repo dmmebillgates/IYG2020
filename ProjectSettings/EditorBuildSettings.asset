@@ -14,4 +14,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/0002Corridor.unity
     guid: f8b9f12393ce8004793bcf3e1fd86122
+  - enabled: 1
+    path: Assets/Scenes/Level_3.unity
+    guid: 4efdd35b84bfaed41816736afae313b3
   m_configObjects: {}
