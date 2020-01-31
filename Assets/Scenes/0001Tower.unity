@@ -56791,12 +56791,12 @@ PrefabInstance:
     - target: {fileID: 2971540455874238102, guid: 7c8f06a6892212546aadea508d63cb2d,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 5.52
+      value: 148.7
       objectReference: {fileID: 0}
     - target: {fileID: 2971540455874238102, guid: 7c8f06a6892212546aadea508d63cb2d,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -4.54
+      value: -8
       objectReference: {fileID: 0}
     - target: {fileID: 2971540455874238102, guid: 7c8f06a6892212546aadea508d63cb2d,
         type: 3}
@@ -58530,12 +58530,12 @@ PrefabInstance:
     - target: {fileID: 1325516293382235874, guid: 375d0934b6aee614aa59810f78ca4934,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 2.852514
+      value: 146.03252
       objectReference: {fileID: 0}
     - target: {fileID: 1325516293382235874, guid: 375d0934b6aee614aa59810f78ca4934,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 2.511088
+      value: -0.94891214
       objectReference: {fileID: 0}
     - target: {fileID: 1325516293382235877, guid: 375d0934b6aee614aa59810f78ca4934,
         type: 3}
@@ -58545,12 +58545,12 @@ PrefabInstance:
     - target: {fileID: 1325516293478029607, guid: 375d0934b6aee614aa59810f78ca4934,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 2.852514
+      value: 146.03252
       objectReference: {fileID: 0}
     - target: {fileID: 1325516293478029607, guid: 375d0934b6aee614aa59810f78ca4934,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 2.511088
+      value: -0.94891214
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 375d0934b6aee614aa59810f78ca4934, type: 3}
@@ -59193,11 +59193,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Lightning&thunder_sound
       objectReference: {fileID: 0}
-    - target: {fileID: 2997898988999583281, guid: 62c5303931d24ba44bb2bb2802fd43cc,
-        type: 3}
-      propertyPath: m_Volume
-      value: 0.25
-      objectReference: {fileID: 0}
     - target: {fileID: 2997898988999583282, guid: 62c5303931d24ba44bb2bb2802fd43cc,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -59252,6 +59247,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2997898988999583281, guid: 62c5303931d24ba44bb2bb2802fd43cc,
+        type: 3}
+      propertyPath: m_Volume
+      value: 0.25
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 62c5303931d24ba44bb2bb2802fd43cc, type: 3}
@@ -59484,6 +59484,17 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: NPC_eye
+      objectReference: {fileID: 0}
+    - target: {fileID: 764244931, guid: 796933670d8e69f4f92b611e53c4c41a, type: 3}
+      propertyPath: Message
+      value: I have not seen anyone around here for a while. I assume You are in a
+        search of The Mythical Boot. In order to find it You have to enter this castle,
+        get through The Corridor and reach the throne room, there you will find the
+        person who is in possession of THE BOOT!
+      objectReference: {fileID: 0}
+    - target: {fileID: 764244931, guid: 796933670d8e69f4f92b611e53c4c41a, type: 3}
+      propertyPath: Name
+      value: Interdimensional Eye Eye
       objectReference: {fileID: 0}
     - target: {fileID: 2530789694133506201, guid: 796933670d8e69f4f92b611e53c4c41a,
         type: 3}
