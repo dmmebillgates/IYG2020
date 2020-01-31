@@ -469,12 +469,6 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: Resume
       objectReference: {fileID: 0}
-    - target: {fileID: 3011462174108551024, guid: 87f9e2d78f2187843a75a1414dd488e8,
-        type: 3}
-      propertyPath: m_Sprite
-      value: 
-      objectReference: {fileID: 21300000, guid: 5c3fab4be43938e4084b0196cd4e151c,
-        type: 3}
     - target: {fileID: 3011462174108551031, guid: 87f9e2d78f2187843a75a1414dd488e8,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
@@ -495,6 +489,12 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: QuitGame
       objectReference: {fileID: 0}
+    - target: {fileID: 3011462174108551024, guid: 87f9e2d78f2187843a75a1414dd488e8,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 5c3fab4be43938e4084b0196cd4e151c,
+        type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 87f9e2d78f2187843a75a1414dd488e8, type: 3}
 --- !u!1 &115007190
@@ -56791,12 +56791,12 @@ PrefabInstance:
     - target: {fileID: 2971540455874238102, guid: 7c8f06a6892212546aadea508d63cb2d,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 148.7
+      value: 5.7
       objectReference: {fileID: 0}
     - target: {fileID: 2971540455874238102, guid: 7c8f06a6892212546aadea508d63cb2d,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -8
+      value: -4.67
       objectReference: {fileID: 0}
     - target: {fileID: 2971540455874238102, guid: 7c8f06a6892212546aadea508d63cb2d,
         type: 3}
@@ -57253,7 +57253,7 @@ MonoBehaviour:
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
   m_fontSizeMax: 72
-  m_fontStyle: 0
+  m_fontStyle: 1
   m_textAlignment: 514
   m_characterSpacing: 0
   m_wordSpacing: 0
@@ -58530,12 +58530,12 @@ PrefabInstance:
     - target: {fileID: 1325516293382235874, guid: 375d0934b6aee614aa59810f78ca4934,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 146.03252
+      value: 3.0325139
       objectReference: {fileID: 0}
     - target: {fileID: 1325516293382235874, guid: 375d0934b6aee614aa59810f78ca4934,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.94891214
+      value: 2.3810878
       objectReference: {fileID: 0}
     - target: {fileID: 1325516293382235877, guid: 375d0934b6aee614aa59810f78ca4934,
         type: 3}
@@ -58545,12 +58545,12 @@ PrefabInstance:
     - target: {fileID: 1325516293478029607, guid: 375d0934b6aee614aa59810f78ca4934,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 146.03252
+      value: 3.0325139
       objectReference: {fileID: 0}
     - target: {fileID: 1325516293478029607, guid: 375d0934b6aee614aa59810f78ca4934,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.94891214
+      value: 2.3810878
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 375d0934b6aee614aa59810f78ca4934, type: 3}
@@ -59487,14 +59487,14 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 764244931, guid: 796933670d8e69f4f92b611e53c4c41a, type: 3}
       propertyPath: Message
-      value: I have not seen anyone around here for a while. I assume You are in a
-        search of The Mythical Boot. In order to find it You have to enter this castle,
-        get through The Corridor and reach the throne room, there you will find the
-        person who is in possession of THE BOOT!
+      value: 'I observe this place since it was abandoned and I have not seen anyone
+        around here for a while. I assume You are in a search of The Mythical Boot.
+        In order to find it You have to enter this castle. At the end of The Corridor
+        You are will meet someone who can guide you further. Best of luck mortal! '
       objectReference: {fileID: 0}
     - target: {fileID: 764244931, guid: 796933670d8e69f4f92b611e53c4c41a, type: 3}
       propertyPath: Name
-      value: Interdimensional Eye Eye
+      value: Interdimensional Eye
       objectReference: {fileID: 0}
     - target: {fileID: 2530789694133506201, guid: 796933670d8e69f4f92b611e53c4c41a,
         type: 3}

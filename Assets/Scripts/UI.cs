@@ -24,7 +24,7 @@ public class UI : MonoBehaviour
     void Start()
     {
         Message.text = "Press [D] to start!";
-        NewMessage = $"{NoPlayerCharacter.Name} said: \n\"{NoPlayerCharacter.Message}\"\nPress [E] to back to menu!";
+        NewMessage = $"{NoPlayerCharacter.Name} said: \n\"{NoPlayerCharacter.Message}\"\nPress [E] to go back to the menu!";
     }
 
     void Update()
