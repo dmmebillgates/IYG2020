@@ -471,13 +471,13 @@ MonoBehaviour:
 
     [1] Default Shoes: Well it''s just a pair of shoes.
 
-    [2] Higher Jump Shoes: 120 metres!
+    [2] Low Gravity Shoes: Feel like Neil Armstrong on the Moon!
 
-    [3] Speed Shoes: I am speed.
+    [3] Speed Shoes: Make your jumps further and increase your speed.
 
     [4] Size reduction Shoes: Become a hobbit!
 
-    [5] Antigravity Shoes: They make Newton look like a fool.'
+    [5] Reversed Gravity Shoes: Flip yourself upside down.'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -2778,7 +2778,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: THE BOOTS
+  m_text: 'THE BOOTS
+
+'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
