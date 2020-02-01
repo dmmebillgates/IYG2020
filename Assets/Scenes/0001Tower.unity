@@ -59300,7 +59300,7 @@ PrefabInstance:
       value: 'I observe this place since it was abandoned and I have not seen anyone
         around here for a while. I assume You are in a search of The Mythical Boot.
         In order to find it You have to enter this castle. At the end of The Corridor
-        You are will meet someone who can guide you further. Best of luck mortal! '
+        You will meet someone who can guide you further. Best of luck mortal! '
       objectReference: {fileID: 0}
     - target: {fileID: 764244931, guid: 796933670d8e69f4f92b611e53c4c41a, type: 3}
       propertyPath: Name
