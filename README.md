@@ -1,9 +1,9 @@
-# Tytuł gry
+# Project's title
 The Boots
 
-# Autorzy
+# Authors
 Michał Gościcki i Paweł Niewiarowski
 
-# Gra
+# Game to download
 
 https://drive.google.com/open?id=1R2CxagjGvDlhkxGQKxEVtQonCyzyZZYC
