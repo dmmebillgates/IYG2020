@@ -439,7 +439,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 50}
+  m_AnchoredPosition: {x: 0, y: 85}
   m_SizeDelta: {x: 769.4, y: 407}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &370532743
@@ -522,7 +522,7 @@ MonoBehaviour:
   m_enableWordWrapping: 1
   m_wordWrappingRatios: 0.4
   m_overflowMode: 0
-  m_firstOverflowCharacterIndex: 490
+  m_firstOverflowCharacterIndex: 485
   m_linkedTextComponent: {fileID: 0}
   m_isLinkedTextComponent: 0
   m_isTextTruncated: 0
@@ -546,10 +546,10 @@ MonoBehaviour:
   m_margin: {x: -70.6738, y: 31.161194, z: -69.531555, w: -11.122482}
   m_textInfo:
     textComponent: {fileID: 370532743}
-    characterCount: 544
+    characterCount: 539
     spriteCount: 0
-    spaceCount: 98
-    wordCount: 98
+    spaceCount: 97
+    wordCount: 97
     linkCount: 0
     lineCount: 12
     pageCount: 1
@@ -751,7 +751,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &788551082
 RectTransform:
   m_ObjectHideFlags: 0
@@ -2757,7 +2757,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 271}
+  m_AnchoredPosition: {x: 0, y: 285}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1538229163
